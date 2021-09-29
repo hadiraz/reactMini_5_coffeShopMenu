@@ -1,0 +1,128 @@
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1180px;
+}
+.top-title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.top-title h2{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.top-title h2::after{
+  content:" " ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 3px;
+  background-color: goldenrod;
+}
+.categories-container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.category-item{
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  margin-right:1em ;
+  border : 1px solid goldenrod;
+  cursor: pointer;
+}
+.category-item.active{
+  background-color: #c3a500;
+}
+.menu-item-container{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+  padding: 0.8rem;
+}
+.menu-item-box{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.menu-item-box li{
+  display: flex;
+  width: 49%;
+  justify-content: space-between;
+  align-items: center;
+  height:150px;
+  margin-top: 1rem;
+}
+.image-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  height:100%;
+  border: 2px solid goldenrod;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.image-box img{
+  width: 100%;
+  height: 100%;
+}
+.item-detail{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  margin-left: 1em;
+}
+.top-detail{
+  display: flex;
+  width: 100%;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #003d8b;
+}
+.item-name{
+  margin-top: 0 0 0.2em 0;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.item-price{
+  margin-top: 0 0 0.2em 0;
+  color: rgb(177, 135, 29);
+}
+.bottom-detail{
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bottom-detail p{
+  margin-bottom: 0;
+  color: rgb(0, 56, 56);
+}
+
+
